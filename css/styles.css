@@ -141,6 +141,19 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
+.icon-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+.icon-phone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 /* Hero */
 .hero {
   min-height: 600px;
