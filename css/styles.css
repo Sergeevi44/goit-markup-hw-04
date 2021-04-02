@@ -197,6 +197,7 @@ body {
   cursor: pointer;
 
   background-color: var(--accent-color);
+  border-radius: 4px;
 }
 /* Features */
 .features {
@@ -286,9 +287,36 @@ body {
 }
 .team-list-item-text {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
   padding-left: auto;
   padding-right: auto;
+}
+
+.s-list {
+  padding-bottom: 30px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.s-link {
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+
+  color: var(--icons-color);
+}
+
+.s-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+.s-icon {
+  fill: currentColor;
+}
+
+.s-link:hover {
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  color: var(--primary-bgc);
 }
 
 /* Clients */
@@ -346,6 +374,47 @@ body {
 .adress-phone-link {
   color: rgba(255, 255, 255, 0.6);
 }
+
+.left {
+  margin-right: 70px;
+}
+
+.footer-text {
+  margin-bottom: 20px;
+
+  color: var(--primary-bgc);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.14;
+  text-transform: uppercase;
+}
+
+.footer-s-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-s-link {
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+
+  color: var(--primary-bgc);
+
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.footer-s-link:hover,
+.footer-s-link:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-bgc);
+}
+
+.footer-s-link-icon {
+  fill: currentColor;
+}
+
 /* ПОРТФОЛИО */
 .gallery {
   padding-top: 94px;
