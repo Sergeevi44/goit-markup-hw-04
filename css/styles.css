@@ -118,7 +118,8 @@ body {
 }
 
 /* header */
-.header-link,
+.header-link-mail,
+.header-link-phone,
 .pagination-list {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -206,10 +207,7 @@ body {
 .features-icons {
   width: 270px;
   height: 120px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  justify-content: center;
   margin-bottom: 30px;
 
   background-color: #f5f4fa;
@@ -376,6 +374,10 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-flex {
+  align-items: baseline;
+}
+
 .left {
   margin-right: 70px;
 }
@@ -396,6 +398,7 @@ body {
 }
 
 .footer-s-link {
+  align-content: ;
   justify-content: center;
   width: 44px;
   height: 44px;
@@ -441,6 +444,7 @@ body {
 
   background-color: var(--secondary-bgc);
   border: none;
+  border-radius: 4px;
 }
 .gallery-btn:hover,
 .gallery-btn:focus {
