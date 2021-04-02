@@ -313,7 +313,8 @@ body {
   fill: currentColor;
 }
 
-.s-link:hover {
+.s-link:hover,
+.s-link:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
   color: var(--primary-bgc);
